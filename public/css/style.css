@@ -1,11 +1,22 @@
 /*-------------- lien sass --------------*/
 /*nav*/
+.navbar {
+  background-color: #000;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+.navbar .nav {
+  border-top: solid #fcfafa 1px;
+  border-bottom: solid #fcfafa 1px;
+  margin: 30px 100px;
+}
+.navbar .nav .nav-item {
+  padding-right: 10px;
+}
+
 /*main*/ 
 /*footer*/
 /*variables*/
-
-/*# sourceMappingURL=style.css.map */
-
 /*---------------- style -------------*/
 
-
+/*# sourceMappingURL=style.css.map */
