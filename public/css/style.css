@@ -69,10 +69,11 @@
 }
 .menu .container1 {
   position: relative;
-  background-color: #ffffff;
+  background-color: #f8f7f7;
   margin-left: 100px;
   margin-right: 100px;
   padding-right: 30px;
+  border: solid 1px #7e7e7e;
 }
 .menu .container1 h2 {
   font-family: "Courgette", cursive;
@@ -120,16 +121,28 @@
   padding-top: 40px;
   background-image: url("../img/main_bg.jpg");
 }
-.reserved .container {
+.reserved .container2 {
   position: relative;
-  background-color: #ffffff;
+  background-color: #f8f7f7;
   margin-left: 100px;
   margin-right: 100px;
   padding-right: 30px;
+  border: solid 1px #9c9c9c;
 }
-.reserved .container .img-right {
+.reserved .container2 .img-right {
   position: absolute;
   right: 0;
+}
+.reserved .container2 .img-left {
+  position: absolute;
+}
+.reserved .container2 .text {
+  font-family: "Courgette", cursive;
+  padding-top: 50px;
+}
+.reserved .container2 .text .red {
+  color: #ac0d0d;
+  font-size: 1.7em;
 }
 
 /*footer*/
