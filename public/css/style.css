@@ -1,5 +1,9 @@
 /*-------------- lien sass --------------*/
 /*nav*/
+.carousel {
+  filter: brightness(40%);
+}
+
 .navbar {
   color: #f8f8f8;
   text-decoration: none;
@@ -21,10 +25,40 @@
 .navbar .nav .nav-item {
   padding-right: 10px;
 }
-
-.carousel {
-  filter: brightness(40%);
-  position: relative;
+.navbar .text {
+  text-align: center;
+  position: absolute;
+  top: 250%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+}
+.navbar .text .text1 {
+  font-family: "Courgette", cursive;
+  padding-top: 70px;
+}
+.navbar .text .text1 .maj {
+  font-size: 1.3em;
+}
+.navbar .text .text1 .bold {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+.navbar .text .text1 .red {
+  color: #c43844;
+  font-size: 1.7em;
+}
+.navbar .text .text2 {
+  padding-top: 30px;
+}
+.navbar .text .text2 .btn1 {
+  border-radius: 20px;
+  padding: 10px;
+}
+.navbar .text .text2 .btn2 {
+  border-radius: 20px;
+  color: #f3f3f3;
+  background-color: #c02525;
+  padding: 10px;
 }
 
 /*main*/ 
