@@ -57,11 +57,38 @@
 .navbar .text .text2 .btn2 {
   border-radius: 20px;
   color: #f3f3f3;
-  background-color: #c02525;
+  background-color: #c43844;
   padding: 10px;
 }
 
 /*main*/ 
+.menu {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-image: url("../img/main_bg.jpg");
+}
+.menu .container1 {
+  background-color: #f3f3f3;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.menu .container1 .red {
+  color: #ac0d0d;
+}
+.menu .container1 .set {
+  padding-left: 320px;
+}
+
+.index {
+  list-style: none;
+}
+.index .coffee {
+  border-radius: 20px;
+}
+.index .price {
+  background-color: #918f8f;
+}
+
 /*footer*/
 /*variables*/
 /*---------------- style -------------*/
