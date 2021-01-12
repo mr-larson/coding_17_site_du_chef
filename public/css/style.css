@@ -68,6 +68,14 @@
   font-size: 0.8em;
 }
 
+.border {
+  height: 2vh;
+  position: absolute;
+  background-image: url(../img/bottom_decoration_img.png);
+  bottom: 0;
+  width: 100%;
+}
+
 /*main*/ 
 .menu {
   padding-bottom: 40px;
@@ -98,11 +106,41 @@
 .index {
   list-style: none;
 }
+.index li {
+  border-bottom: solid 2px #b3b2b2;
+  margin-top: 20px;
+}
 
 .price {
   background-color: #ccc7c7;
   color: #ac0d0d;
   padding: 1px 8px;
+}
+
+.myhover :hover {
+  color: #ac0d0d;
+}
+
+.onglet {
+  font-family: "Courgette", cursive;
+  font-size: 2em;
+  padding: 20px 5px 5px 5px;
+}
+
+.bord {
+  border-bottom: solid 2px #b3b2b2;
+  padding: 5px;
+  margin: 0px 10px;
+}
+
+.bord2 {
+  border-left: solid 2px #b3b2b2;
+}
+.bord2 img {
+  border: solid 4px #b3b2b2;
+  height: 120px;
+  width: 120px;
+  margin-right: 10px;
 }
 
 .deco-right {
@@ -117,10 +155,6 @@
 .chef .text {
   font-family: "Courgette", cursive;
   color: #f0efef;
-}
-.chef .red {
-  color: #ac0d0d;
-  font-size: 1.7em;
 }
 
 .reserved {
@@ -152,6 +186,7 @@
 .red {
   color: #ac0d0d;
   font-size: 1.7em;
+  font-family: "Courgette", cursive;
 }
 
 h3, p {
@@ -176,10 +211,70 @@ h3, p {
   background-color: #ac0d0d;
   color: #FFF;
   padding: 15px 5px 10px 5px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .comment .number {
   font-size: 1.5em;
+}
+
+.formulaire {
+  max-width: 750px;
+  padding: 60px 90px;
+  background-image: url("../img/book_table_bg.jpg");
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.formulaire .telephone {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.input-group > .form-control, .input-group > .form-select {
+  border-radius: 10px;
+}
+
+.input {
+  margin-bottom: 50px;
+}
+
+.client {
+  background-image: url("../img/testimonials_background.jpg");
+}
+
+.text2 {
+  color: #ffffff;
+}
+
+.blog {
+  border-radius: 30px;
+  border: solid 5px #b1b1b1;
+}
+
+.contact {
+  background-image: url("../img/main_bg.jpg");
+}
+
+.mycard {
+  padding: 30px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.mysize {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.bordure {
+  border: solid 2px #b1b1b1;
+  border-radius: 20px;
+  margin: 10px 10px 50px 10px;
+  padding-top: 20px;
+  padding-bottom: 2px;
+}
+
+.contoure {
+  border: solid 5px #ffffff;
 }
 
 /*footer*/
