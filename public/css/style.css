@@ -84,17 +84,17 @@
 }
 .menu .container1 {
   position: relative;
-  background-color: #ffffff;
+  background-color: #f8f7f7;
   margin-left: 100px;
   margin-right: 100px;
   padding-right: 30px;
-  border: solid 1px #7e7e7e;
+  border: solid 1px #d3d3d3;
 }
 .menu .container1 h2 {
   font-family: "Courgette", cursive;
 }
 .menu .container1 .red {
-  color: #ac0d0d;
+  color: #c21111;
   font-size: 1.5em;
   font-family: "Courgette", cursive;
 }
@@ -107,18 +107,18 @@
   list-style: none;
 }
 .index li {
-  border-bottom: solid 2px #b3b2b2;
+  border-bottom: solid 2px #cacaca;
   margin-top: 20px;
 }
 
 .price {
-  background-color: #ccc7c7;
-  color: #ac0d0d;
+  background-color: #ececec;
+  color: #c21111;
   padding: 1px 8px;
 }
 
 .myhover :hover {
-  background-color: #ac0d0d;
+  background-color: #c21111;
 }
 
 .onglet {
@@ -128,7 +128,7 @@
 }
 
 .bord {
-  border-bottom: solid 2px #b3b2b2;
+  border-bottom: dotted 1px #b3b2b2;
   padding: 5px;
   margin: 0px 10px;
 }
@@ -141,6 +141,14 @@
   height: 120px;
   width: 120px;
   margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.dinner h5 {
+  font-size: 1em;
+}
+.dinner p {
+  font-size: 0.8em;
 }
 
 .deco-right {
@@ -151,6 +159,9 @@
 
 .chef {
   background-image: url("../img/team_background.jpg");
+}
+.chef .img-fluid1 {
+  border-bottom: solid 1px #b3b2b2;
 }
 .chef .text {
   font-family: "Courgette", cursive;
@@ -168,7 +179,7 @@
   margin-left: 100px;
   margin-right: 100px;
   padding-right: 30px;
-  border: solid 1px #9c9c9c;
+  border: solid 1px #b3b2b2;
 }
 .reserved .container2 .img-right {
   position: absolute;
@@ -178,14 +189,18 @@
   position: absolute;
 }
 
+.pad {
+  padding-bottom: 20Px;
+}
+
 .text {
   font-family: "Courgette", cursive;
   padding-top: 50px;
 }
 
 .red {
-  color: #ac0d0d;
-  font-size: 1.7em;
+  color: #c21111;
+  font-size: 1.5em;
   font-family: "Courgette", cursive;
 }
 
@@ -195,9 +210,9 @@ h3, p {
 
 .btn {
   border-radius: 30px;
-  background-color: #ac0d0d;
+  background-color: #c21111;
   color: #FFF;
-  padding: 10px 30px;
+  padding: 12px 30px;
   font-size: 1em;
 }
 
@@ -208,7 +223,7 @@ h3, p {
 }
 
 .comment {
-  background-color: #ac0d0d;
+  background-color: #c21111;
   color: #FFF;
   padding: 15px 5px 10px 5px;
   border-radius: 10px;
@@ -243,11 +258,12 @@ h3, p {
 
 .text2 {
   color: #ffffff;
+  font-size: 0.8em;
 }
 
 .blog {
   border-radius: 30px;
-  border: solid 5px #b1b1b1;
+  border: solid 5px #dadada;
 }
 
 .contact {
@@ -258,6 +274,7 @@ h3, p {
   padding: 30px;
   color: #ffffff;
   border-radius: 20px;
+  background-color: #c21111;
 }
 
 .mysize {
@@ -266,11 +283,11 @@ h3, p {
 }
 
 .bordure {
-  border: solid 2px #b1b1b1;
-  border-radius: 20px;
-  margin: 10px 10px 50px 10px;
+  border: solid 1px #b1b1b1;
+  border-radius: 10px;
+  margin: 20px 10px 50px 30px;
   padding-top: 20px;
-  padding-bottom: 2px;
+  padding-bottom: 8px;
 }
 
 .contoure {
@@ -292,7 +309,18 @@ h3, p {
 .rounded-pill {
   background-color: #ac0d0d;
   border: solid 1px #ffffff;
-  padding: 3px;
+  margin: 9px 1px;
+  padding: 5px 2px;
+  font-size: 0.8em;
+}
+
+.footage {
+  background-color: #ac0d0d;
+  color: #940c0c;
+}
+
+.border-bottom {
+  background-image: url("../img/footer_bottom_decoration_img.png");
 }
 
 /*variables*/
