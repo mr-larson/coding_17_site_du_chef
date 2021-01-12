@@ -309,8 +309,8 @@ h3, p {
 .rounded-pill {
   background-color: #aa3131;
   border: solid 1px #ffffff;
-  margin: 9px 1px;
-  padding: 5px 2px;
+  margin: 5px 5px;
+  padding: 2px 2px;
   font-size: 0.8em;
 }
 
