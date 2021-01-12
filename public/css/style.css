@@ -150,7 +150,7 @@
 }
 
 .chef {
-  background-color: #000;
+  background-image: url("../img/team_background.jpg");
 }
 .chef .text {
   font-family: "Courgette", cursive;
@@ -277,11 +277,14 @@ h3, p {
   border: solid 5px #ffffff;
 }
 
+/*footer*/
 .background {
   background-image: url("../img/footer_background.jpg");
 }
+.background a {
+  color: #ffffff;
+}
 
-/*footer*/
 /*variables*/
 /*---------------- style -------------*/
 
