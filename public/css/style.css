@@ -222,6 +222,24 @@ h3, p {
   right: 0;
 }
 
+.row .blog {
+  width: 600px;
+}
+.row .like {
+  position: absolute;
+  top: 1100px;
+  left: 120px;
+  z-index: 1;
+  width: 24vw;
+}
+.row .like1 {
+  position: absolute;
+  top: 1100px;
+  right: 255px;
+  z-index: 1;
+  width: 24vw;
+}
+
 .comment {
   background-color: #aa3131;
   color: #FFF;
