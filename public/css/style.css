@@ -26,7 +26,7 @@
   padding: 10px 10px 10px 0px;
 }
 .navbar .nav .nav-item :hover {
-  background-color: #c43844;
+  background-color: #aa3131;
 }
 .navbar .text {
   text-align: center;
@@ -47,7 +47,7 @@
   font-size: 1.7em;
 }
 .navbar .text .text1 .red {
-  color: #c43844;
+  color: #aa3131;
   font-size: 1.7em;
 }
 .navbar .text .text2 {
@@ -62,7 +62,7 @@
 .navbar .text .text2 .btn2 {
   border-radius: 20px;
   color: #f3f3f3;
-  background-color: #c43844;
+  background-color: #aa3131;
   padding: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 0.8em;
@@ -94,7 +94,7 @@
   font-family: "Courgette", cursive;
 }
 .menu .container1 .red {
-  color: #c21111;
+  color: #aa3131;
   font-size: 1.5em;
   font-family: "Courgette", cursive;
 }
@@ -113,12 +113,12 @@
 
 .price {
   background-color: #ececec;
-  color: #c21111;
+  color: #aa3131;
   padding: 1px 8px;
 }
 
 .myhover :hover {
-  background-color: #c21111;
+  background-color: #aa3131;
 }
 
 .onglet {
@@ -199,7 +199,7 @@
 }
 
 .red {
-  color: #c21111;
+  color: #aa3131;
   font-size: 1.5em;
   font-family: "Courgette", cursive;
 }
@@ -210,7 +210,7 @@ h3, p {
 
 .btn {
   border-radius: 30px;
-  background-color: #c21111;
+  background-color: #aa3131;
   color: #FFF;
   padding: 12px 30px;
   font-size: 1em;
@@ -223,7 +223,7 @@ h3, p {
 }
 
 .comment {
-  background-color: #c21111;
+  background-color: #aa3131;
   color: #FFF;
   padding: 15px 5px 10px 5px;
   border-radius: 10px;
@@ -274,7 +274,7 @@ h3, p {
   padding: 30px;
   color: #ffffff;
   border-radius: 20px;
-  background-color: #c21111;
+  background-color: #aa3131;
 }
 
 .mysize {
@@ -307,7 +307,7 @@ h3, p {
 }
 
 .rounded-pill {
-  background-color: #ac0d0d;
+  background-color: #aa3131;
   border: solid 1px #ffffff;
   margin: 9px 1px;
   padding: 5px 2px;
@@ -315,12 +315,16 @@ h3, p {
 }
 
 .footage {
-  background-color: #ac0d0d;
-  color: #940c0c;
+  background-color: #aa3131;
+  color: #991f1f;
 }
 
 .border-bottom {
   background-image: url("../img/footer_bottom_decoration_img.png");
+}
+
+.icone {
+  padding: 5px 12px;
 }
 
 /*variables*/
