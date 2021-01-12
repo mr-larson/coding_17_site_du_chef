@@ -280,9 +280,19 @@ h3, p {
 /*footer*/
 .background {
   background-image: url("../img/footer_background.jpg");
+  font-size: 1em;
 }
 .background a {
   color: #ffffff;
+}
+.background h3 {
+  font-size: 1.5em;
+}
+
+.rounded-pill {
+  background-color: #ac0d0d;
+  border: solid 1px #ffffff;
+  padding: 3px;
 }
 
 /*variables*/
